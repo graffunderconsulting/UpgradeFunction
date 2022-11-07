@@ -10,5 +10,5 @@ jobs:
     name: CI
     uses: ./.github/workflows/build-test.yml
     with:
-      DOTNET_VERSION: "3.1.x"
+      DOTNET_VERSION: "6.0.x"
       PROJECT_PATH: UpgradeFunction.sln
