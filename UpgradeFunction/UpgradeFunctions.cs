@@ -27,7 +27,7 @@ namespace UpgradeFunction
 
             string responseMessage = string.IsNullOrEmpty(name)
                 ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
-                : $"Hello, {name}{name}. This works as expected.";
+                : $"Hello, {name}{name}{name}. This works as expected.";
 
             return new OkObjectResult(responseMessage);
         }
